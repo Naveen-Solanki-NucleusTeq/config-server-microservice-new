@@ -4,4 +4,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka  
 logging:
   pattern:
-    level: "%5p [${spring.application.name:-},%X{traceId:-},%X{spanId:-}]"
+    level: "%p [${spring.application.name:-},%X{traceId:-},%X{spanId:-}]"
